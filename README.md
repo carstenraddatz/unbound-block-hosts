@@ -1,7 +1,7 @@
 # NAME
 
-unbound-block-hosts - a script to convert Dan Pollock's ad blocking hosts file
-into Unbound local-data
+unbound-block-hosts - a lightly enhanced script by gbxyz to convert Dan Pollock's ad blocking hosts file
+into Unbound local-zone and local-data
 
 # SYNOPSIS
 

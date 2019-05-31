@@ -117,6 +117,7 @@ foreach my $line (split("\n", $res->content)) {
 printf(STDERR "Warning: discarded %u lines that were found outside section tags\n", $discarded) if ($discarded > 0);
 
 map {
+	printf(FILE "local-zone: \"%s%s\" redirect\n", $_, );
 	printf(FILE "local-data: \"%s A %s\"\n", $_, $opt->{'address'});
 	printf(FILE "local-data: \"%s AAAA %s\"\n", $_, $opt->{'v6address'});
 } @names;
