@@ -132,8 +132,8 @@ __END__
 
 =head1 NAME
 
-unbound-block-hosts - a script to convert Dan Pollock's ad blocking hosts file
-into Unbound local-data
+unbound-block-hosts - a lightly enhanced script by gbxyz to convert Dan Pollock's ad blocking hosts file
+into Unbound local-zone and local-data
 
 =head1 SYNOPSIS
 
@@ -203,7 +203,7 @@ terms as Perl itself.
 
 =over
 
-=item L<https://github.com/jodrell/unbound-block-hosts>
+=item L<https://github.com/gbxyz/unbound-block-hosts>
 
 =item L<http://someonewhocares.org/hosts/>
 
